@@ -1,0 +1,152 @@
+remove [/home/mra/core4home/c4t]
+installing [c4t]
+  created project root [/home/mra/core4home/c4t]
+  installing Python virtual environment in [/home/mra/core4home/c4t/.venv]
+Collecting pip>=18.1
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/d8/f3/413bab4ff08e1fc4828dfc59996d721917df8e8583ea85385d51125dceff/pip-19.0.3-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 9.0.1
+    Uninstalling pip-9.0.1:
+      Successfully uninstalled pip-9.0.1
+Successfully installed pip-19.0.3
+  install from local folder [/home/mra/PycharmProjects/c4t]
+Processing /home/mra/PycharmProjects/c4t
+Collecting core4@ git+https://github.com/plan-net/core4.git@develop from git+https://github.com/plan-net/core4.git@develop (from c4t==0.0.0)
+  Cloning https://github.com/plan-net/core4.git (to revision develop) to /tmp/pip-install-z7vz17cv/core4
+Switched to a new branch 'develop'
+Branch develop set up to track remote branch develop from origin.
+Collecting wheel>=0.32.3 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/96/ba/a4702cbb6a3a485239fbe9525443446203f00771af9ac000fa3ef2788201/wheel-0.33.1-py2.py3-none-any.whl
+Collecting pymongo>=3.7 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/93/bf/d5234f8dc5eaae6d8391154f282dbefb7f82c2d8305af60cb5face86e880/pymongo-3.7.2-cp35-cp35m-manylinux1_x86_64.whl
+Collecting python-dateutil>=2.7 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl
+Collecting PyYaml>=3.12 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/9f/2c/9417b5c774792634834e730932745bc09a7d36754ca00acf1ccd1ac2594d/PyYAML-5.1.tar.gz
+Collecting psutil>=5.4 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/2f/b8/11ec5006d2ec2998cb68349b8d1317c24c284cf918ecd6729739388e4c56/psutil-5.6.1.tar.gz
+Collecting docopt>=0.6 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+Collecting croniter>=0.3 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/a9/c9/11182a2507798c661b04a7914739ea8ca73a738e6869a23742029f51bc1a/croniter-0.3.29-py2.py3-none-any.whl
+Collecting python-mimeparse>=1.6 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/26/2e/03bce213a9bf02a2750dcb04e761785e9c763fc11071edc4b447eacbb842/python_mimeparse-1.6.0-py2.py3-none-any.whl
+Collecting PyJWT>=1.6 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/87/8b/6a9f14b5f781697e51259d81657e6048fd31a113229cf346880bb7545565/PyJWT-1.7.1-py2.py3-none-any.whl
+Collecting tornado>=5.1 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/03/3f/5f89d99fca3c0100c8cede4f53f660b126d39e0d6a1e943e95cc3ed386fb/tornado-6.0.2.tar.gz
+Collecting pandas>=0.23 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl
+Collecting motor>=2.0 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/28/ca/a2e740ad2822cbf0d2ac4a3b2b48e043142014ab5c8c2129fa5c71c8cdb5/motor-2.0.0-py2.py3-none-any.whl
+Collecting passlib>=1.7 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/ee/a7/d6d238d927df355d4e4e000670342ca4705a72f0bf694027cf67d9bcf5af/passlib-1.7.1-py2.py3-none-any.whl
+Collecting python-magic>=0.4 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/42/a1/76d30c79992e3750dac6790ce16f056f870d368ba142f83f75f694d93001/python_magic-0.4.15-py2.py3-none-any.whl
+Collecting docutils>=0.14 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
+Collecting Sphinx==1.8.2 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/ff/d5/3a8727d6f890b1ae45da72a55bf8449e9f2c535a444923b338c3f509f203/Sphinx-1.8.2-py2.py3-none-any.whl
+Collecting sh==1.12.14 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/4a/22/17b22ef5b049f12080f5815c41bf94de3c229217609e469001a8f80c1b3d/sh-1.12.14-py2.py3-none-any.whl
+Requirement already satisfied, skipping upgrade: pip>=18.1 in /home/mra/core4home/c4t/.venv/lib/python3.5/site-packages (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0) (19.0.3)
+Collecting pytz>=2018.9 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/61/28/1d3920e4d1d50b19bc5d24398a7cd85cc7b9a75a490570d5a30c57622d34/pytz-2018.9-py2.py3-none-any.whl
+Collecting tzlocal>=1.5.1 (from core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+Collecting six>=1.5 (from python-dateutil>=2.7->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting numpy>=1.12.0 (from pandas>=0.23->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/e3/18/4f013c3c3051f4e0ffbaa4bf247050d6d5e527fe9cb1907f5975b172f23f/numpy-1.16.2-cp35-cp35m-manylinux1_x86_64.whl
+Collecting babel!=2.0,>=1.3 (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/b8/ad/c6f60602d3ee3d92fbed87675b6fb6a6f9a38c223343ababdb44ba201f10/Babel-2.6.0-py2.py3-none-any.whl
+Collecting imagesize (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/fc/b6/aef66b4c52a6ad6ac18cf6ebc5731ed06d8c9ae4d3b2d9951f261150be67/imagesize-1.1.0-py2.py3-none-any.whl
+Collecting snowballstemmer>=1.1 (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/d4/6c/8a935e2c7b54a37714656d753e4187ee0631988184ed50c0cf6476858566/snowballstemmer-1.2.1-py2.py3-none-any.whl
+Collecting Jinja2>=2.3 (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl
+Collecting packaging (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/91/32/58bc30e646e55eab8b21abf89e353f59c0cc02c417e42929f4a9546e1b1d/packaging-19.0-py2.py3-none-any.whl
+Collecting sphinxcontrib-websupport (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/52/69/3c2fbdc3702358c5b34ee25e387b24838597ef099761fc9a42c166796e8f/sphinxcontrib_websupport-1.1.0-py2.py3-none-any.whl
+Requirement already satisfied, skipping upgrade: setuptools in /home/mra/core4home/c4t/.venv/lib/python3.5/site-packages (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0) (32.3.1)
+Collecting Pygments>=2.0 (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/13/e5/6d710c9cf96c31ac82657bcfb441df328b22df8564d58d0c4cd62612674c/Pygments-2.3.1-py2.py3-none-any.whl
+Collecting alabaster<0.8,>=0.7 (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/10/ad/00b090d23a222943eb0eda509720a404f531a439e803f6538f35136cae9e/alabaster-0.7.12-py2.py3-none-any.whl
+Collecting requests>=2.0.0 (from Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/7d/e3/20f3d364d6c8e5d2353c72a67778eb189176f08e873c9900e10c0287b84b/requests-2.21.0-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.3->Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/6e/57/d40124076756c19ff2269678de7ae25a14ebbb3f6314eb5ce9477f191350/MarkupSafe-1.1.1-cp35-cp35m-manylinux1_x86_64.whl
+Collecting pyparsing>=2.0.2 (from packaging->Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Downloading https://files.pythonhosted.org/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pyparsing-2.4.0-py2.py3-none-any.whl (62kB)
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.0.0->Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting urllib3<1.25,>=1.21.1 (from requests>=2.0.0->Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/62/00/ee1d7de624db8ba7090d1226aebefab96a2c71cd5cfa7629d6ad3f61b79e/urllib3-1.24.1-py2.py3-none-any.whl
+Collecting idna<2.9,>=2.5 (from requests>=2.0.0->Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
+Collecting certifi>=2017.4.17 (from requests>=2.0.0->Sphinx==1.8.2->core4@ git+https://github.com/plan-net/core4.git@develop->c4t==0.0.0)
+  Using cached https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl
+Installing collected packages: wheel, pymongo, six, python-dateutil, PyYaml, psutil, docopt, croniter, python-mimeparse, PyJWT, tornado, numpy, pytz, pandas, motor, passlib, python-magic, docutils, babel, imagesize, snowballstemmer, MarkupSafe, Jinja2, pyparsing, packaging, sphinxcontrib-websupport, Pygments, alabaster, chardet, urllib3, idna, certifi, requests, Sphinx, sh, tzlocal, core4, c4t
+  Running setup.py install for PyYaml: started
+    Running setup.py install for PyYaml: finished with status 'done'
+  Running setup.py install for psutil: started
+    Running setup.py install for psutil: finished with status 'done'
+  Running setup.py install for tornado: started
+    Running setup.py install for tornado: finished with status 'done'
+  Running setup.py install for core4: started
+    Running setup.py install for core4: finished with status 'done'
+  Running setup.py install for c4t: started
+    Running setup.py install for c4t: finished with status 'done'
+Successfully installed Jinja2-2.10.1 MarkupSafe-1.1.1 PyJWT-1.7.1 PyYaml-5.1 Pygments-2.3.1 Sphinx-1.8.2 alabaster-0.7.12 babel-2.6.0 c4t-0.0.0 certifi-2019.3.9 chardet-3.0.4 core4-0.1.0 croniter-0.3.29 docopt-0.6.2 docutils-0.14 idna-2.8 imagesize-1.1.0 motor-2.0.0 numpy-1.16.2 packaging-19.0 pandas-0.24.2 passlib-1.7.1 psutil-5.6.1 pymongo-3.7.2 pyparsing-2.4.0 python-dateutil-2.8.0 python-magic-0.4.15 python-mimeparse-1.6.0 pytz-2018.9 requests-2.21.0 sh-1.12.14 six-1.12.0 snowballstemmer-1.2.1 sphinxcontrib-websupport-1.1.0 tornado-6.0.2 tzlocal-1.5.1 urllib3-1.24.1 wheel-0.33.1
+  build webapps in [/home/mra/PycharmProjects/c4t]
+    build [/home/mra/PycharmProjects/c4t/c4t/webapps/example]
+    clean [/home/mra/PycharmProjects/c4t/c4t/webapps/example/dist]
+    $ yarn install
+      yarn install v1.13.0
+      [1/4] Resolving packages...
+      success Already up-to-date.
+      Done in 0.94s.
+    $ yarn build
+      yarn run v1.13.0
+      $ vue-cli-service build
+      
+      -  Building for production...
+      DONE  Compiled successfully in 3572ms6:36:05 AM
+      
+      File                                 Size               Gzipped
+      
+      dist/js/chunk-vendors.17c21303.js    111.54 KiB         40.54 KiB
+      dist/js/app.cad27cce.js              4.60 KiB           1.65 KiB
+      dist/css/app.e2713bb0.css            0.33 KiB           0.23 KiB
+      
+      Images and other types of assets omitted.
+      
+      DONE  Build complete. The dist directory is ready to be deployed.
+      INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      
+      Done in 6.67s.
+yarn install v1.13.0
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.94s.
+yarn run v1.13.0
+$ vue-cli-service build
+
+-  Building for production...
+ DONE  Compiled successfully in 3572ms6:36:05 AM
+
+  File                                 Size               Gzipped
+
+  dist/js/chunk-vendors.17c21303.js    111.54 KiB         40.54 KiB
+  dist/js/app.cad27cce.js              4.60 KiB           1.65 KiB
+  dist/css/app.e2713bb0.css            0.33 KiB           0.23 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      
+Done in 6.67s.
+    copy [/home/mra/PycharmProjects/c4t/c4t/webapps/example/dist] to [webapps/example/dist]
